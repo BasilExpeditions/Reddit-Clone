@@ -27,12 +27,13 @@
 
   <div class="row">
     <div class="col-8">
-       <!-- @posts.each do |post| -->
+       <% @posts.each do |post| %>
         <div class="card p-3 m-4">
-          <!-- <h4> link_to post.title, community_post_path(post.community_id, post)</h4>
-          <p> truncate post.body, length: 200</p> -->
+          <h4><%= link_to post.title, community_post_path(post.community_id, post) %></h4>
+
+          <p> <%= post.body.truncate(30) %></p>
         </div>
-       <!-- end  -->
+       <% end %>
     </div>
 
 
