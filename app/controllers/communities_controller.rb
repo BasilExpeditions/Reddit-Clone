@@ -7,6 +7,7 @@ before_action :set_community, only: [:show]
   end
 
   def show
+    @posts = @community.posts
   end
 
   def new
@@ -23,6 +24,7 @@ before_action :set_community, only: [:show]
       render :new
     end
   end
+
 
   private
 
