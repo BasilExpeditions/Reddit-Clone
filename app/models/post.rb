@@ -1,8 +1,9 @@
 class Post < ApplicationRecord
 
-belongs_to :account, :optional => true
-belongs_to :community, :optional => true
+  belongs_to :account
+  belongs_to :community
 
-validates_presence_of :title, :body, :account_id, :community_id
+  validates_presence_of :title, :body, :account_id, :community_id
+  has_many :comments
 
 end

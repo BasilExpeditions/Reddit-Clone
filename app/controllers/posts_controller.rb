@@ -7,6 +7,7 @@ before_action :set_post, only: [:show]
   end
 
   def show
+    @comment = Comment.new
   end
 
   def new
@@ -33,7 +34,7 @@ before_action :set_post, only: [:show]
   private
 
   def set_post
-    @post = Post.find(params[:id])
+    @post = Post.includes(:comments).find(params[:id])
 
   end
 private
