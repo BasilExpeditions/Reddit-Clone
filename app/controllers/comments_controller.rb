@@ -7,13 +7,18 @@ class CommentsController < ApplicationController
     respond_to do |f|
       f.js {
           if @comment.save
-            @comments = Comment.where(post_id: @comment.post_id)
+            @comments = Comment.where post_comment_path(@post, comment)
             render "comments/create"
           else
             #unable to save
           end
       }
     end
+  end
+
+  def destroy
+    @comment = Comment.find(params[:id])
+    @comment.destroy
   end
 
   def comment_params

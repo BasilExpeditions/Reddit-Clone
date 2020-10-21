@@ -7,7 +7,9 @@ Rails.application.routes.draw do
     resources :posts
   end
 
-  resources :comments, only: [:create]
+  resources :posts do
+    resources :comments
+  end
 
   root :to => 'public#index'
 

@@ -10,6 +10,7 @@ before_action :set_post, only: [:show]
     @comment = Comment.new
   end
 
+
   def new
     @community = Community.find(params[:community_id])
     @post = Post.new
