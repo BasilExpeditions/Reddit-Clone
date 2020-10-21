@@ -4,15 +4,18 @@
     <%= link_to "Create New Community", new_community_path, class: "btn btn-outline-primary" %>
   </div>
 
+
+
 <% end %>
 
 <% if @communities.present? %>
 
 <% @communities.each do |community| %>
-
-  <div class="card">
-    <h3><%= link_to community.name, community %></h3>
-    <h3><%= simple_format community.rules %></h3>
+  <div class="col-md-8">
+    <div class="card p-2 m-1">
+      <h3><%= link_to community.name, community %></h3>
+      <p class="h3"><%= simple_format community.rules %></p>
+    </div>
   </div>
 
 <% end %>

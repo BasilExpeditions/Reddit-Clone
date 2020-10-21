@@ -15,9 +15,8 @@
     <div class="card p-3">
       <p class="h5">About this community</p>
       <p class="mt-2"><%= @community.summary %></p>
+      <p><strong>Rules</strong><%= simple_format @community.rules %>
+      </p>
     </div>
-    <small>
-      <%= simple_format @community.rules %>
-    </small>
   </div>
 </div>
