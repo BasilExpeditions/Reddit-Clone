@@ -2,8 +2,5 @@
   <div class="comment">
     <%= link_to comment.account.full_name, profile_path(comment.account.username) %>
     <%= simple_format comment.message %>
-    <div class="float-right">
-    <%= link_to "Delete Comment", post_comment_path(@post, comment), method: :delete %>
-    </div>
   </div>
 <% end %>

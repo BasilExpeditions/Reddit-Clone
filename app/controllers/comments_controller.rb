@@ -4,10 +4,11 @@ class CommentsController < ApplicationController
     @comment = Comment.new comment_params
     @comment.account_id = current_account.id
 
+
     respond_to do |f|
       f.js {
           if @comment.save
-            @comments = Comment.where post_comment_path(@post, comment)
+            @comments = Comment.where Comment.where new_post_comment_path
             render "comments/create"
           else
             #unable to save
@@ -16,10 +17,10 @@ class CommentsController < ApplicationController
     end
   end
 
-  def destroy
-    @comment = Comment.find(params[:id])
-    @comment.destroy
-  end
+  # def destroy
+  #   @comment = Comment.find(params[:id])
+  #   @comment.destroy
+  # end
 
   def comment_params
     params.require(:comment).permit(:message, :post_id)

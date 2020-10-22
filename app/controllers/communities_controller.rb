@@ -34,7 +34,7 @@ before_action :set_community, only: [:show]
   end
 
   def community_values
-    params.require(:community).permit(:name, :url, :summary, :rules)
+    params.require(:community).permit(:name, :summary, :rules)
   end
 
 end
