@@ -4,11 +4,11 @@
 ## Ruby version: 2.7.1
 
 ## Deployed via Heroku,
-##### This was my first project deploying to Heroku, there were a few hiccups but thankfully the issues with deploying were sorted promptly
+##### This was my first project deploying to Heroku, there were a few hiccups due to how bootstrap was initially installed, but thankfully the issues with deploying were sorted promptly
 
 ## Whats in the box:
 #### Devise
-##### Its a flexible authentication solution for Rails based on Warden. It:
+#####Its a flexible authentication solution for Rails based on Warden. It:
 
 1. Is Rack based;
 1. Is a complete MVC solution based on Rails engines;
@@ -31,7 +31,19 @@ The database that was used during this project was Postgres
 
 1.  Admin accounts
 1.  Total comments per post on posts show page
-1.  Delete users comments
+1.  Delete user from current user comments
+
+
+
+
+## Existing Issues
+1.  :destroy method within comments_controller.erb kept having routing issues when targeting specific a comment :id, commented out for the time being until fixed also will be re-enabled when users can only delete their own posts and comments
+
+1.  :destroy method on post within controllers/post_controller.rb is redirecting to all communities path instead of existing community, also currently commented out for the time being.
+
+1.  layout / Bootstrap cards not lining up with each other
+
+1.  bugs bugs bugs bugs 
 
 
 
