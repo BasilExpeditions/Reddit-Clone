@@ -17,6 +17,8 @@ class CommentsController < ApplicationController
 
 def destroy
   # keeps breaking
+  # I tried Ajax but might of tried too many wrong ways
+  # I think i need to refactor routing
 end
 
   private
