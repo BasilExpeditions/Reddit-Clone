@@ -8,7 +8,7 @@ class CommentsController < ApplicationController
     respond_to do |f|
       f.js {
           if @comment.save
-            @comments = Comment.where Comment.where new_post_comment_path
+            @comments = Comment.where(post_id: @comment.post_id)
             render "comments/create"
           else
             #unable to save
@@ -17,10 +17,7 @@ class CommentsController < ApplicationController
     end
   end
 
-  # def destroy
-  #   @comment = Comment.find(params[:id])
-  #   @comment.destroy
-  # end
+  private
 
   def comment_params
     params.require(:comment).permit(:message, :post_id)
