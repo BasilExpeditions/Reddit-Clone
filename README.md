@@ -1,7 +1,5 @@
-# README
 
-
-## Ruby version: 2.7.1
+### Ruby version: 2.7.1
 
 ## Deployed via Heroku,
 ##### This was my first project deploying to Heroku, there were a few hiccups due to how bootstrap was initially installed, but thankfully the issues with deploying were sorted promptly
