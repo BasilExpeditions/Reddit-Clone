@@ -8,7 +8,7 @@
 
 ## Whats in the box:
 #### Devise
-#####Its a flexible authentication solution for Rails based on Warden. It:
+##### Its a flexible authentication solution for Rails based on Warden. It:
 
 1. Is Rack based;
 1. Is a complete MVC solution based on Rails engines;
