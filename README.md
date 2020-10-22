@@ -19,6 +19,10 @@
 1. Currently supports jQuery 1, 2 and 3
 1. the jQuery UJS adapter
 
+#### Ajax
+
+1. Ajax enables you to retrieve data for a web page without having to refresh the contents of the entire page. In the basic web architecture, the user clicks a link or submits a form. The form is submitted to the server, which then sends back a response. The response is then displayed for the user on a new page.
+
 
 #### PostgresSQL
 PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance. I have no idea how it works or where it runs but i love it.
