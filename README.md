@@ -39,6 +39,6 @@ PostgreSQL is a powerful, open source object-relational database system with ove
 
 1.  bugs bugs bugs bugs
 
-#### The architecture of this application intends to follow Ruby on Rails conventions or at least trys to.
+ The architecture of this application intends to follow Ruby on Rails conventions or at least trys to.
 
-#### Any pull requests with suggestions or fixes would be much appreciated.
+ Any pull requests with suggestions or fixes would be much appreciated.
