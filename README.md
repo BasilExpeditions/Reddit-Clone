@@ -23,11 +23,29 @@
 #### PostgresSQL
 PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance. I have no idea how it works or where it runs but i love it.
 
+#### Migrations
+
+I initially had alot of trouble with this part starting out, Thankfully i collaborated with some friends who work as full stack developers whom were excellent at explaining situtations where you would use certain migrations. 
+As a result i created 5 migrations
+
+1. devise_create_accounts.rb
+1. create_communities.rb
+1. create_posts.rb
+1. add_summary_to_communities
+1. create_comments
+
+#### Models
+
 ## Features to come:
 
 1.  Admin accounts
 1.  Total comments per post on posts show page
 1.  Delete currently logged in users comments and not everyones
+1.  Upvoting posts
+1.  Upvoting comments
+1.  Reporting posts
+1.  Reporting accounts
+1.  Reporting comments
 
 
 ## Existing Issues
