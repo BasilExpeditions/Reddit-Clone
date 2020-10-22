@@ -10,12 +10,14 @@ class CommentsController < ApplicationController
           if @comment.save
             @comments = Comment.where(post_id: @comment.post_id)
             render "comments/create"
-          else
-            #unable to save
           end
       }
     end
   end
+
+def destroy
+  # keeps breaking
+end
 
   private
 

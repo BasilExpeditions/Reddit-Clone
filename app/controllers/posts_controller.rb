@@ -28,6 +28,11 @@ before_action :set_post, only: [:show]
     end
   end
 
+  # def destroy
+  #   post = Post.find(params[:id])
+  #   post.destroy
+  #   redirect_to communities_path
+  # end
 
 
 

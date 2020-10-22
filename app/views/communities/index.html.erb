@@ -33,6 +33,7 @@
     <div class="card p-2 m-1">
       <h3><%= link_to community.name, community %></h3>
       <p class="h3"><%= simple_format community.rules %></p>
+      <p><%= community.name %> created <%= time_ago_in_words community.created_at %> ago.</p>
     </div>
   </div>
 
