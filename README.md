@@ -31,7 +31,7 @@ The database that was used during this project was Postgres
 
 1.  Admin accounts
 1.  Total comments per post on posts show page
-1.  Delete user from current user comments
+1.  Delete users comments
 
 
 
