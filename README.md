@@ -34,8 +34,6 @@ The database that was used during this project was Postgres
 1.  Delete user from current user comments
 
 
-
-
 ## Existing Issues
 1.  :destroy method within comments_controller.erb kept having routing issues when targeting specific a comment :id, commented out for the time being until fixed also will be re-enabled when users can only delete their own posts and comments
 
@@ -43,4 +41,4 @@ The database that was used during this project was Postgres
 
 1.  layout / Bootstrap cards not lining up with each other
 
-1.  bugs bugs bugs bugs 
+1.  bugs bugs bugs bugs
