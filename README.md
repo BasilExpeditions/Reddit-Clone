@@ -5,6 +5,7 @@
 ##### This was my first project deploying to Heroku, there were a few hiccups due to how bootstrap was initially installed, but thankfully the issues with deploying were sorted promptly
 
 ## Whats in the box:
+
 #### Devise
 ##### Its a flexible authentication solution for Rails based on Warden. It:
 
@@ -18,18 +19,15 @@
 1. Currently supports jQuery 1, 2 and 3
 1. the jQuery UJS adapter
 
-#### The architecture of this application intends to follow Ruby on Rails conventions or at least trys to.
-#### Any pull requests with suggestions would be much appreciated.
 
-* Database creation
-
-The database that was used during this project was Postgres
+#### PostgresSQL
+PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance. I have no idea how it works or where it runs but i love it.
 
 ## Features to come:
 
 1.  Admin accounts
 1.  Total comments per post on posts show page
-1.  Delete user from current user comments
+1.  Delete currently logged in users comments and not everyones
 
 
 ## Existing Issues
@@ -40,3 +38,7 @@ The database that was used during this project was Postgres
 1.  layout / Bootstrap cards not lining up with each other
 
 1.  bugs bugs bugs bugs
+
+#### The architecture of this application intends to follow Ruby on Rails conventions or at least trys to.
+
+#### Any pull requests with suggestions or fixes would be much appreciated.
