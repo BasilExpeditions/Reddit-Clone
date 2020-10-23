@@ -24,6 +24,7 @@
 1.  Reporting posts
 1.  Reporting accounts
 1.  Reporting comments
+1. Links are currently just text in comments, posts or communities
 
 ## Whats in the box:
 
