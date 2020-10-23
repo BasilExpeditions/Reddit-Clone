@@ -3,6 +3,28 @@
 ## Deployed via Heroku,
 ##### This was my first project deploying to Heroku, there were a few hiccups due to how bootstrap was initially installed, but thankfully the issues with deploying were sorted promptly
 
+## Features
+1. Create Community
+1. Create Post
+1. Create comments
+1. Create an account
+1. Have a bio if you route to user account
+1. See personal posts by user account
+1. Delete own account
+1. Cannot create community unless logged in
+1. Cannot comment unless logged in
+
+## Features to come:
+
+1.  Admin accounts
+1.  Total comments per post on posts show page
+1.  Delete currently logged in users comments and not everyones
+1.  Upvoting posts
+1.  Upvoting comments
+1.  Reporting posts
+1.  Reporting accounts
+1.  Reporting comments
+
 ## Whats in the box:
 
 #### Devise
@@ -38,17 +60,6 @@ As a result i created 5 migrations
 1. create_comments
 
 #### Models
-
-## Features to come:
-
-1.  Admin accounts
-1.  Total comments per post on posts show page
-1.  Delete currently logged in users comments and not everyones
-1.  Upvoting posts
-1.  Upvoting comments
-1.  Reporting posts
-1.  Reporting accounts
-1.  Reporting comments
 
 
 ## Existing Issues
