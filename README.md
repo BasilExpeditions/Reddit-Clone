@@ -3,6 +3,8 @@
 ## Deployed via Heroku,
 ##### This was my first project deploying to Heroku, there were a few hiccups due to how bootstrap was initially installed, but thankfully the issues with deploying were sorted promptly
 
+https://discussion-board-project1.herokuapp.com/
+
 ## Features
 1. Create Community
 1. Create Post
